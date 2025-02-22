@@ -1,6 +1,6 @@
-import { Suspense } from "react"
-import GreetingForm from "./components/greeting-form"
-import ExplanationSection from "./components/explanation-section"
+import { Suspense } from "react";
+import GreetingForm from "./components/greeting-form";
+import ExplanationSection from "./components/explanation-section";
 
 export default function Home() {
   return (
@@ -11,6 +11,5 @@ export default function Home() {
       </Suspense>
       <ExplanationSection />
     </main>
-  )
+  );
 }
-
